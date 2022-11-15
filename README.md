@@ -1,11 +1,11 @@
-# Frontend Boilerplate React/NextJS
+# Fullstack Boilerplate React/NextJS
 
 A backbone for your coding challenge.
 
 ## Contents
 
-- [Frontend app](app-frontend) - a React app. Extend with your code.
-- [E2E test suites](cypress/integration) - a frontend Cypress test suite. Extend with your tests.
+- [Fullstack app](app-fullstack) - a React/NextJS app. Extend with your code.
+- [E2E test suites](cypress/integration) - a fullstack Cypress test suite. Extend with your tests.
 - [Pipeline](.github/workflows/tests.yml) - a test Runner that executes the Cypress tests on push to a branch other than `master`/`main`.
 
 ## Tech Stack
