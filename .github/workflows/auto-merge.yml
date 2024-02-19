@@ -46,6 +46,8 @@ jobs:
           build: npm run build
           start: npm run start
           wait-on: 'npx wait-on --timeout ${{ env.WAIT_ON_TIMEOUT }} tcp:${{ steps.vars.outputs.port }}'
+        env:
+          WAIT_ON_TIMEOUT: ${{ secrets.WAIT_ON_TIMEOUT }}
 
   # Verifies the boilerplate can start and run in codespace environment
   test-for-codespaces:
@@ -84,6 +86,8 @@ jobs:
           build: npm run build
           start: npm run start
           wait-on: 'npx wait-on --timeout ${{ env.WAIT_ON_TIMEOUT }} tcp:${{ steps.vars.outputs.port }}'
+        env:
+          WAIT_ON_TIMEOUT: ${{ secrets.WAIT_ON_TIMEOUT }}
 
   check-dependabot:
     needs:
