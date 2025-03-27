@@ -2,11 +2,11 @@ const Footer = () => (
   <footer className="flex items-center justify-center w-full h-24 border-t">
     <a
       className="flex items-center justify-center"
-      href="https://devskills.co?utm_source=challenge-boilerplate"
+      href="https://alvalabs.io"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Built by DevSkills
+      Made by Alva Labs
     </a>
   </footer>
 )
