@@ -22,6 +22,6 @@
     "jest": "^30.3.0",
     "postcss": "^8.5.8",
     "react-test-renderer": "^19.2.0",
-    "tailwindcss": "^4.1.15"
+    "tailwindcss": "^4.2.2"
   }
 }
