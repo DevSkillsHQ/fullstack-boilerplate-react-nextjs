@@ -20,7 +20,7 @@
     "babel-jest": "^30.5.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.5.2",
-    "postcss": "^8.5.9",
+    "postcss": "^8.5.28",
     "react-test-renderer": "^19.3.0",
     "tailwindcss": "^4.2.2"
   }
