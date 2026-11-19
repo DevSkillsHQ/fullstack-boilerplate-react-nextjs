@@ -9,7 +9,7 @@
     "test": "jest --watch"
   },
   "dependencies": {
-    "next": "^16.4.5",
+    "next": "^16.4.6",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
@@ -20,7 +20,7 @@
     "babel-jest": "^30.5.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.5.2",
-    "postcss": "^8.5.32",
+    "postcss": "^8.5.33",
     "react-test-renderer": "^19.3.1",
     "tailwindcss": "^4.2.2"
   }
